@@ -1,0 +1,29 @@
+html { background:url(images/html-bg1.gif) #fff repeat-x center top; height:100%; }
+body { background:url(images/home-bg.jpg) no-repeat center top;  height:100%;}
+
+#header #logo { background:none!important; }
+
+#home-left { margin:322px 0 30px 6px; float:left; width:400px; } 
+#home-left h1 { font-size:22px; line-height:25px; color:#666; margin-bottom:16px; }
+#home-left h2 { color:#D92C06; font-size:16px; margin-bottom:16px; font-weight:bold; }
+#home-left .text { line-height:18px; }
+#home-left .text ul { margin:15px 0; }
+#home-left .text li { margin-left:10px; padding-left:15px; background:url(images/arrow-01.gif) no-repeat left 3px; font-size:13px; margin-bottom:6px; }
+
+#home-right { float:right; }
+#home-right #video { width:524px; height:337px; padding:18px 0 0 20px; background:url(images/frame1.jpg) no-repeat center top; display:block; margin-top:85px; } 
+#home-right #login { width:544px; height:169px; background:url(images/frame2.jpg) no-repeat center top; display:block; } 
+#home-right #login .button { width:265px; height:63px; display:block; background:url(images/btn-login.gif) no-repeat center top; float:right; margin:36px 36px 0 0; text-indent:-9999px; }
+#home-right #login  div {  float:right; margin:5px 36px 0 0; display:block; width:243px; margin:13px 36px 0 0; color:#fff; }
+#home-right #login a { color:#fff; }
+
+#option { padding:63px 0 0 29px; width:971px; height:105px; display:block; background:url(images/option-bg.jpg) no-repeat center top; clear:both; }
+#option .option { width:363px; height:55px; padding:26px 0 0 88px; float:left; color:#fff; font-size:18px; }  
+#option #btn1 { background:url(images/option1.jpg) no-repeat center top; margin-right:27px;}  
+#option #btn1:hover { background:url(images/option1.jpg) no-repeat center bottom;}  
+#option #btn2 { background:url(images/option2.jpg) no-repeat center top; }  
+#option #btn2:hover { background:url(images/option2.jpg) no-repeat center bottom;}  
+#option .option a { color:#EA4826; } 
+#option .option p { display:block; color:#999; font-size:12px; margin:7px 0 0 86px; font-weight:bold; }
+
+#logos { margin:23px 0 38px 0; text-align:center; }

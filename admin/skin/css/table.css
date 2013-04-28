@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cms-table {
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	clear: both;
+	margin: 5px 0 0 0;
+}
+
+.cms-table th {
+	padding: 0 10px 0 10px;
+	vertical-align: middle;
+}
+
+.cms-table  td {
+	padding: 0 10px 0 10px;
+}
+
+.cms-table th {
+	background: url('../images/table/bg-th.jpg') top left repeat-x;
+	color: #666666;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	height: 30px;
+	border-bottom: 1px solid #cccccc;
+}
+
+/*
+.cms-table tr > th:first-child {
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;	
+}
+
+.cms-table tr > th:last-child {
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;	
+}*/
+
+.cms-table tr td {
+	border-bottom: 1px solid #F0F0F0;
+	height: 30px;
+	font-size: 11px;
+	color: #999999;
+}
+
+/*
+.cms-table tr > td:first-child {
+	border-left: 1px solid #eeeeee;
+}
+
+.cms-table tr > td:last-child {
+	border-right: 1px solid #eeeeee;
+}*/
+
+/*.cms-table tr.even td { background-color:#FFF; }*/
+.cms-table tr.odd td { background-color:#F4F7FB; }
+.cms-table tr.hover td { background-color:#F0F0F0;}

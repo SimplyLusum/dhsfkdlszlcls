@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.buttons input {
+	border: 1px solid #999999;
+	background: url('../images/form/button_bg.jpg') top left repeat-x;
+	padding: 2px 10px 2px 10px;
+	display: block;
+	float: left;
+	margin: 10px 5px 0 0;
+	font: 13px Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+.buttons a {
+	border: 1px solid #999999;
+	background: url('../images/form/button_bg.jpg') top left repeat-x;
+	padding: 3px 10px 3px 10px;
+	display: block;
+	float: left;
+	margin: 0px 5px 0 0;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #333333;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.disabled {
+	background-color: #eeeeee !important;
+	color: #999999 !important;
+}
+
+.buttons a:hover, .buttons a.active {
+	background: url('../images/form/button_bg_hover.jpg') top left repeat-x;
+}
+
+.buttons input:hover {
+	background: url('../images/form/button_bg_hover.jpg') top left repeat-x;
+}
+
+input,select,option { font-family:Arial, Helvetica, sans-serif; font-size:11px; }
+
+.buttons select {
+	border: 1px solid #cccccc;
+	background: url('../images/form/button_bg.jpg') top left repeat-x;
+	padding: 2px 2px 2px 2px;
+	display: block;
+	float: left;
+	margin: 10px 5px 0 0;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+.message {
+	padding: 10px;
+	border: 2px solid #ddd;
+	background-color: #eee;
+	color: #222;
+}
+
+.notice {
+	background: #FFF6BF;
+	color: #817134;
+	border-color: #FFD324;
+}
+.success {
+	background: #E6EFC2;
+	color: #529214;
+	border-color: #C6D880;
+}
+
+.error {
+	background: #FBE3E4;
+	color: #D12F19;
+	border-color: #FBC2C4;
+}
+
+p.error, p.success, p.notice, p.message {
+	padding: 8px;
+	/*border: 1px dotted;*/
+	clear: both;
+	/*margin-left: 10px;*/
+	font-size: 11px;
+	margin: 5px 0 5px 0;
+}
+
+

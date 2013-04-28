@@ -1,0 +1,21 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteRule ^admin$ admin/index.php [L]
+RewriteRule ^checkout_(.*) /index.php?pg=checkout&step=$1 [L]
+RewriteRule ^save-(.*) /index.php?pg=save&basket=$1 [L]
+
+
+RewriteRule ^([^.]+)$ /index.php?pg=$1 [L]
+
+
+ErrorDocument 404 /404.php
+
+php_value session.cookie_lifetime 10800
+php_value session.gc_maxlifetime 10800

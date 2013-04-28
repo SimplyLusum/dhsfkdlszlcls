@@ -1,0 +1,41 @@
+div { font-family: Arial, Helvetica, sans-serif, "Trebuchet MS"; font-size:12px; color:#666; } 
+input, select, textarea, button { font-family: Arial, Helvetica, sans-serif, "Trebuchet MS"; }
+strong { font-weight:bold; }
+
+#wrapper { width:1000px; margin:0 auto; }
+
+#header { height:111px; }
+#header #logo { width:330px; height:42px; background:url(images/logo.gif) no-repeat center top; display:block; float:left; margin:40px 0 0 10px; text-indent:-9999px; }
+#header ul { float:right; margin-top:47px;position:relative; }
+#header li { float:left; margin-right:1px;  }
+#header li a { display:block; height:31px; text-indent:-9999px; background:url(images/nav.gif) no-repeat;  }
+#header li a#nav1 { width:67px; background-position:left top; } 
+#header li a#nav1:hover, #header li a#nav1.selected { background-position:left bottom; } 
+#header li a#nav2 { width:120px; background-position:-67px top; } 
+#header li a#nav2:hover, #header li a#nav2.selected { background-position:-67px bottom; } 
+#header li a#nav3 { width:105px; background-position:-187px top; } 
+#header li a#nav3:hover, #header li a#nav3.selected { background-position:-187px bottom; } 
+#header li a#nav3.show { background:url(images/nav3.gif) no-repeat center top; } 
+
+#header li a#nav4 { width:58px; background-position:-292px top; } 
+#header li a#nav4:hover, #header li a#nav4.selected, #header li a#nav4.show { background-position:-292px bottom; } 
+#header li a#nav5 { width:97px; background-position:-350px top;  } 
+#header li a#nav5:hover, #header li a#nav5.selected { background-position:-350px bottom; } 
+#header li a#nav5.show { background:url(images/nav5.gif) no-repeat center top; } 
+#header li a#nav6 { width:104px; background-position:-447px top; } 
+#header li a#nav6:hover, #header li a#nav6.selected { background-position:-447px bottom; } 
+#header li a#nav6.show { background:url(images/nav6.gif) no-repeat center top; } 
+
+
+#jsddm li ul { margin: 0; padding: 13px 12px 0 14px; position: absolute; visibility: hidden; z-index:9999; }
+#jsddm li ul li { float: none;	display: block; text-align:right; height: 26px; }		
+#jsddm li ul li a { width: auto; text-indent:0; background:none; height:20px; padding-top:5px; border-bottom:#E5E5E5 solid 1px; color:#666; text-decoration:none; }
+#jsddm li ul li a:hover { background:url(images/hover.gif) repeat-x center top;  }
+#jsddm li ul li a img { margin-right:5px; }
+
+
+
+#footer { padding:20px 0 40px 0; border-top:#EA4826 solid 1px;color:#999;  }
+#footer a {  color:#999; text-decoration:none; }
+#footer .left { float:left; }
+#footer .right { float:right; } 

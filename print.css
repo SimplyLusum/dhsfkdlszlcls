@@ -1,0 +1,45 @@
+/* Print CSS for onlinekitchens.co.nz 
+ * Author: Francis Park <francis@brownpaperbag.co.nz>
+ *
+body { display:list-item;list-style-image:url("./images/howitworks-bg.png");width:100%;list-style-position:inside; }
+#header #logo { display:list-item;list-style-image:url("./images/logo.gif");list-style-position:inside; }
+#downloadpdf { display:none; }
+#printpage { display:none; } */
+
+#downloadpdf {display:none;}
+#printpage {display:none;}
+#howitwork.general {margin:0; margin-top:10px;}
+.sendfriend {display:none;}
+h1 {font-size:18px;font-weight:bold;}
+
+
+div { font-family: Arial, Helvetica, sans-serif, "Trebuchet MS"; font-size:12px; color:#000; } 
+strong { font-weight:bold; }
+
+#header { }
+#header #logo { font-size:24px; }
+#header ul { display: none; }
+#header li { float:left; margin-right:1px;  }
+#header li a { display:block; height:31px; }
+#header li a#nav1 { width:67px; } 
+#header li a#nav1:hover, #header li a#nav1.selected {  } 
+#header li a#nav2 { width:120px; } 
+#header li a#nav2:hover, #header li a#nav2.selected { } 
+#header li a#nav3 { width:105px; } 
+#header li a#nav3:hover, #header li a#nav3.selected {  } 
+#header li a#nav3.show { } 
+#header li a#nav4 { width:58px; } 
+#header li a#nav4:hover, #header li a#nav4.selected, #header li a#nav4.show { } 
+#header li a#nav5 { width:97px;   } 
+#header li a#nav5:hover, #header li a#nav5.selected { } 
+#header li a#nav5.show { } 
+#header li a#nav6 { width:104px; } 
+#header li a#nav6:hover, #header li a#nav6.selected { } 
+#header li a#nav6.show { }
+
+#jsddm {display: none;}
+#jsddm li ul { margin: 0; padding: 13px 12px 0 14px; position: absolute; }
+#jsddm li ul li { float: none;	display: block; text-align:right; height: 26px; }		
+#jsddm li ul li a { width: auto; text-indent:0; background:none; height:20px; padding-top:5px; border-bottom:#E5E5E5 solid 1px; color:#666; text-decoration:none; }
+#jsddm li ul li a:hover {  }
+#jsddm li ul li a img { margin-right:5px; }

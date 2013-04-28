@@ -1,0 +1,29 @@
+.clear { clear:both; }
+div { font-family:Arial, Helvetica, sans-serif; }
+
+#video-popup { padding:27px 0 0 12px; font-size:12px; }
+#video-popup .player { width:411x; height:336px; padding:16px 0 0 48px; display:block; margin:0 auto; background:url(images/video-player.gif) no-repeat center top; }
+#video-popup  h1 { margin:8px 0 10px 40px; color:#5A6A5B; font-size:14px; font-weight:bold; }
+#video-popup p { color:#666; margin-left:40px; width:443px; line-height:15px;}
+#video-popup .button { text-align:right; margin-top:20px; }
+
+#gallery-popup { padding:27px 0 0 12px; font-size:12px; }
+#gallery-popup .player { width:461x; height:336px; padding:16px 0 0 49px; display:block; margin:0 auto; background:url(images/video-player.gif) no-repeat center top; }
+#gallery-popup  h1 { margin:8px 0 10px 40px; color:#5A6A5B; font-size:14px; font-weight:bold; }
+#gallery-popup p { color:#666; margin-left:40px; width:443px; line-height:15px;}
+#gallery-popup .button { text-align:right; margin-top:20px; }
+
+#testimonial-popup { padding:27px 0 0 12px; font-size:12px; }
+#testimonial-popup .player { width:663x; height:249px; padding:13px 0 0 52px; display:block; margin:0 auto; background:url(images/testimonial-player.gif) no-repeat center top; }
+#testimonial-popup .before { margin-right:63px; }
+#testimonial-popup h1 { color:#EA4626; font-size:15px; margin-left:42px; margin-bottom:8px; font-weight:bold; margin-top:4px; }
+#testimonial-popup p { width:692px; color:#666px; line-height:15px; margin-left:42px;}
+#testimonial-popup .button { text-align:right; margin-top:20px; }
+
+
+#friend-popup { padding:27px 0 0 12px; font-size:12px; }
+#friend-popup h1 { color:#EA4626; font-size:20px;  margin-bottom:8px; font-weight:bold; }
+#friend-popup p { margin-bottom:10px; }
+#friend-popup label { font-weight:bold; display:block; margin-bottom:3px; }
+#friend-popup .textbox { font-family:Arial, Helvetica, sans-serif; font-size:12px; margin-bottom:5px; width:500px; height:18px; border:#ccc solid 1px; padding:3px; font-size:11px; background:url(images/textbox-bg.gif) #fff repeat-x center top;  }
+#friend-popup .textarea {font-family:Arial, Helvetica, sans-serif; font-size:12px; margin-bottom:5px; width:500px; height:72px; border:#ccc solid 1px; padding:3px; font-size:11px; background:url(images/textbox-bg.gif) #fff repeat-x center top  }
